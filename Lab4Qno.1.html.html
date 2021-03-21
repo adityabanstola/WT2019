@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>WAP to alter the visibility of an image of HTML document using JS</title>
+    <style>
+        img{
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="show()" >Show</button>
+    <button onclick="hide()" >Hide</button>
+
+    <img id="img"  src="aditya.jpg">
+
+
+    <script>
+        function show(){
+                document.getElementById("img").style.visibility="visible";
+            }
+
+        function hide(){
+                document.getElementById("img").style.visibility="hidden";
+            }
+
+    </script>
+
+</body>
+</html>
